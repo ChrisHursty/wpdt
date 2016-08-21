@@ -24,4 +24,9 @@ add_action( 'genesis_setup', 'wpdt_setup' );
  */
 function wpdt_setup() {
 
+    // Define theme constants.
+    define( 'CHILD_THEME_NAME', 'WPDT' );
+    define( 'CHILD_THEME_URL', 'http://github.com/ChrisHursty/wpdt' );
+    define( 'CHILD_THEME_VERSION', '1.0.0' );
+
 }

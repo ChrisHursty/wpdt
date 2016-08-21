@@ -2,4 +2,4 @@
 
 ### New Genesis Child Theme for WPDT
 
-`http://wpdt.rda.net`
+[WordPress Development Team](http://wpdt.rda.net)
