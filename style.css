@@ -695,7 +695,7 @@ th {
 /* # Site Header
 ---------------------------------------------------------------------------------------------------- */
 .site-header {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.75);
     max-width: 100%;
 }
 
@@ -706,8 +706,14 @@ th {
 }
 
 .title-area {
+    background: url(img/logo.png);
+    -webkit-background-size: cover;
+    background-size: cover;
     float: left;
+    height: 100px;
+    text-indent: -9999px;
     width: 30%;
+
 }
 
 .header-widget-area {
@@ -751,8 +757,8 @@ th {
 
 .footer-widgets .widget-area {
     float: left;
-    padding-right: 5%;
-    width: 30%;
+    padding: 0 2.5%;
+    width: 33%;
 }
 
 .footer-widgets .footer-widgets-3 {
