@@ -694,8 +694,14 @@ th {
 
 /* # Site Header
 ---------------------------------------------------------------------------------------------------- */
+.site-header {
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 100%;
+}
 
 .site-header .wrap {
+    margin: 0 auto;
+    max-width: 1200px;
     padding: 40px 0;
 }
 
@@ -710,7 +716,7 @@ th {
 }
 
 .site-title {
-    font-family: Lobster, sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 36px;
     font-weight: 400;
     line-height: 1.2;
@@ -723,9 +729,11 @@ th {
 
 /* # Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
+.footer-widgets {
+    background-color: #333;
+}
 
 .footer-widgets .wrap {
-    background-color: #333;
     color: #fff;
     margin: 0 auto;
     padding: 20px;
