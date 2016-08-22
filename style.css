@@ -718,7 +718,7 @@ th {
 
 .header-widget-area {
     float: right;
-    width: 70%;
+    width: 64%;
 }
 
 .site-title {
@@ -731,6 +731,26 @@ th {
 
 .site-description {
     margin-bottom: 0;
+}
+
+.widget_nav_menu {
+    float: left;
+    width: 60%;
+}
+
+.widget_search {
+    float: right;
+    width: 40%;
+}
+
+.search-form-label {
+    width: 65%;
+}
+
+.search-form input[type="submit"] {
+    float: right;
+    width: 35%;
+
 }
 
 /* # Footer Widgets
